@@ -1,0 +1,79 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(211 , 250 , 213);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#bloco {
+  background-color: rgb(236 , 236 , 236);
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin: 5% 5%;
+}
+
+header {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  border: 1px solid black;
+  background: green;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#funcionamento {
+  font-size: 15px;
+  font-style: italic;
+  margin: 10px auto;
+  color: rgb(94 , 93 , 93);
+}
+
+#criar-tarefa {
+  border-radius: 20px;
+  border: 1px solid black;
+  background: rgb(34 , 34 , 250);
+  padding: 5px;
+  font-weight: bolder;
+  color: white;
+  cursor: pointer;
+}
+
+#criar-tarefa:hover {
+  background-color: rgb(118, 174, 237);
+}
+
+#criar-tarefa:active {
+  background-color: rgb(64, 127, 199);
+}
+
+.div-adicionar-tarefa {
+  grid-template-columns: auto auto;
+}
+
+#texto-tarefa {
+  border-radius: 20px;
+  width: 40%;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+#div-tarefas-a-fazer {
+  padding: 20px;
+  line-height: 25px;
+}
+
+.selected {
+  background-color: rgb(128, 128, 128);
+}
+
+.completed {
+  text-decoration: line-through;
+}
