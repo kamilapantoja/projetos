@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(231, 231, 231);
+}
+
+hr {
+  width: 72%;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.trybewarts-login {
+  display: flex;
+  margin: 0 2%;
+}
+
+#email {
+  border-radius: 10px;
+  border: white;
+  padding: 10px;
+}
+
+#senha {
+  border-radius: 10px;
+  border: white;
+  margin: 0 10px;
+}
+
+#btn-login {
+  border-radius: 10px;
+  border: white;
+  padding: 0 60px;
+  background-color: rgb(73, 2, 73);
+  color: white;
+  font-weight: 900;
+}
+
+.trybewarts-header-logo {
+  width: 60px;
+  margin: 5px 20px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  margin: 50px 100px 0 -60px;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  margin: 0 30% 0 0;
+  padding: 5px 0 20px;
+}
+
+.line-content {
+  margin: 5px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+#input-name , #input-lastname , #input-email {
+  border-radius: 10px;
+  border: white;
+  padding: 10px 30px;
+}
+
+#house {
+  border-radius: 10px;
+  border: white;
+  margin: 0 0 0 5px;
+  padding: 10px 55px;
+  background-color: white;
+}
+
+.radio-content {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.family-content {
+  display: flex;
+  margin: 10px 0;
+}
+
+.conteudo-aprender {
+  margin: 5px 0 0 50px;
+}
+
+.hofs-jest-promises {
+  display: flex;
+  margin: 10px 0;
+}
+
+.react-sql-python {
+  display: flex;
+  margin: 10px 0;
+}
+
+.checkbox-content {
+  margin: 5px 30px 0 0;
+}
+
+.avaliacao-trybewarts {
+  margin: 10px 0;
+}
+
+.area-de-comentarios {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30%;
+  margin-top: 10px;
+}
+
+.checkbox-aceite {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#submit-btn {
+  border-radius: 8px;
+  padding: 5px 32%;
+  background-color: rgb(73, 2, 73);
+  color: white;
+  font-weight: 900;
+}
+
+.rodape {
+  background-color: rgb(43, 43, 43);
+  margin-top: 20px;
+}
+
+#direitos-reservados {
+  text-align: center;
+  color: white;
+  padding: 15px;
+}
