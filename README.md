@@ -8,4 +8,5 @@ Projetos Concluídos:
   <li>Project Playground Functions</li>
   <li>Project Pixels Art</li>
   <li>Project To Do List</li>
+  <li>Project Trybewarts</li>
 </ol>
